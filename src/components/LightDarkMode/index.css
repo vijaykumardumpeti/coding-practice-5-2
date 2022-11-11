@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.container {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.small-container {
+  background-color: white;
+  background-size: cover;
+  height: 200px;
+  padding: 10px;
+
+  border: 2px solid black;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background-white {
+  background-color: white;
+  background-size: cover;
+}
+.background-black {
+  background-color: black;
+  background-size: cover;
+}
+.heading-white {
+  color: white;
+  text-align: center;
+}
+.heading-black {
+  color: black;
+  text-align: center;
+}
+.btn-style {
+  padding: 5px;
+}
